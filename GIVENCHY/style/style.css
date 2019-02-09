@@ -1,0 +1,1492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none;
+}
+ul,ol{
+    list-style-type:none;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clear{
+    overflow: hidden;
+}
+.none{
+    display:none;
+}
+.min_width{
+    min-width: 309px;
+}
+.Hmargin{
+    padding:30px 0;
+    padding-left:10%;
+}
+.marRight10{
+    margin-right:10%;
+}
+.marRight20{
+    margin-right:20%;
+}
+.paddingBtm100{
+    padding-bottom:100px;
+}
+.Width40{
+    width:40%;
+  
+ }
+.Width60{
+    width:60%;
+}
+.Width70{
+    width:70%;
+}
+.Width25{
+    width:25%;
+}
+.Width20{
+    width:20%;
+}
+.c666{
+    color:#666;
+}
+body{
+    position:relative;
+}
+body>#mb{
+    width: 100%;
+    height:100%;
+    background:rgba(0,0,0,0.4);
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:6666;
+    display:none;
+}
+@keyframes mbOver{
+0%{opacity:0;}
+100%{opacity:1;}
+}
+@keyframes mbOut{
+    0%{opacity:1;}
+    100%{opacity:1;}
+    }
+header{
+    padding:35px 0 0 0;
+    width: 100%;
+ height: 137px;
+ background: #fff;
+position:fixed;
+top:0;
+left:0;
+z-index:9999;
+border-bottom:1px solid #999;
+}
+header article{
+    width: 80%;
+    margin:0 10%;
+
+}
+
+header #h_s1{
+    width: 30%;
+    margin-left:-100%;
+ 
+}
+header #h_s3{
+    width: 170px;
+    float:left;
+    margin-left:-170px;
+    text-align: right;
+}
+header #h_s1 ul li,header #h_s3 ul li{
+    float:left;
+    margin-right:15px;
+    height: 34px;
+    line-height: 34px;
+}
+header #h_s1 ul li a,header #h_s3 ul li a{
+    font-size:12px;
+    color:#000;
+}
+header #h_s1 ul li:hover{
+    text-decoration: underline;
+}
+header #h_s3 ul li:hover{
+    text-decoration: underline;
+}
+header #h_s2{
+    width: 100%;
+    text-align: center;
+ 
+}
+header #h_s3 ul li img{
+    position: relative;
+    top:3px;
+
+}
+header #h_brk{
+    width: 100%;
+    float:left; 
+   
+}
+header article:last-child nav ul{
+    margin:20px auto 0 auto;
+    width: 65%;
+    z-index:9999;
+}
+header article:last-child nav ul li{
+    float:left;
+    width: 14.2%;
+    text-align: center;
+    height: 45px;
+}
+header article:last-child nav ul li a{
+   font-size:12px;
+   color:#000;
+   font-weight:bold;
+   display:inline-block;
+   padding-bottom:20px;
+   border-bottom:3px solid rgba(0,0,0,0);
+}
+header #zindex{
+  
+  width: 100%;
+position:relative;
+}
+header #zindex .Hmargin{
+width: 100%;
+position: absolute;
+top:-2px;
+left:0;
+display:none;
+z-index:7777;
+background: #fff;
+border-top:1px solid #999;
+}
+header #zindex .Hmargin dl dt{
+    font-size:12px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+header #zindex .Hmargin .right dl  dd{
+    font-size:12px;
+    margin-bottom:10px;
+}
+header #zindex .Hmargin .right dl dd a{
+color:#666;
+}
+header #zindex .Hmargin .right dl  dd a:hover{
+   text-decoration: underline;
+} 
+header #twoul{
+    width: 40%;
+display:none;
+  background: #fff;
+  padding:20px 0 30px 0;
+position: relative;
+top:-12px;
+overflow: hidden;
+}
+header #twoul li{
+    padding:12px 6%;
+    height: 45px;
+    border-bottom:1px solid #ccc;
+    margin:0 auto;
+}
+header #twoul li:nth-child(7),header #twoul li:nth-child(8),
+header #twoul li:nth-child(9),header #twoul li:nth-child(10){
+    border:none;
+}
+header #twoul li a{
+    color:#000;
+    font-size:12px;
+    font-weight:bold;
+   display:block;
+}
+header #twoul li a span{
+    color:#666;
+}
+
+header #twoul li:hover a{
+    font-size:14px;
+    animation:twomsg 0.4s 1;
+}
+@keyframes twomsg {
+    0%{font-size:12px;}
+    100%{font-size:14px;}
+}
+main{
+    width: 100%;
+}
+main #m_a1{
+    width: 100%;
+    position: relative;
+}
+
+main #m_a1>div>a img{
+    width: 100%;
+    display:none;
+}
+main #m_a1>div>a .on{
+    display:block;
+    animation:m_dh1 0.5s 1;
+}
+main #m_a1>section{
+    position: absolute;
+    bottom:17%;
+height: 100px;
+width: 100%;
+    left:0;
+    color:#fff;
+}
+main #m_a1>section ul{
+    width: 120px;
+    height: 120px;
+    margin:0 auto;
+    position: relative;
+}
+main #m_a1>section ul li{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+}
+main #m_a1>section ul li a{
+    display:block;
+    width: 50px;
+    height: 50px;
+}
+main #m_a1>section ul .on{
+   background: #fff;
+}
+main #m_a1>section ul li:nth-of-type(1){
+    top:0;
+    left:0;
+}
+main #m_a1>section ul li:nth-of-type(2){
+    top:0;
+   right:0;
+}
+main #m_a1>section ul li:nth-of-type(3){
+   right:0;
+   bottom:0;
+}
+main #m_a1>section ul li:nth-of-type(4){
+    left:0;
+    bottom:0;
+}
+main #m_a1>#shopmsg{
+    position: absolute;
+    top:46%;
+    width: 100%;
+}
+main #m_a1>#shopmsg li{
+    width: 100%;
+display:none;
+text-align: center;
+}
+main #m_a1>#shopmsg li a{
+    color:#fff;
+    font-size:38px;
+    font-weight:bold;
+}
+main #m_a1>#shopmsg li.on{
+    display:block;
+}
+main #m_a1>#shopsmall{
+    position: absolute;
+    bottom:3%;
+    width: 100%;
+}
+main #m_a1>#shopsmall li{
+    display:none;
+    text-align: center;
+}
+main #m_a1>#shopsmall li a{
+    color:#fff;
+    font-weight:bold;
+    font-size:12px;
+}
+main #m_a1>#shopsmall li.on{
+    display:block;
+}
+main #m_a2{
+    width: 100%;
+    margin:100px auto 0 auto;
+    position: relative;
+}
+main #m_a2>div.new{
+    position: absolute;
+    right:0;
+    top:0;
+    width: 200px; 
+}
+
+main #m_a2>div.new p:nth-of-type(1){
+    font-size:48px;
+    color:#BFA369;
+    font-family: '宋体';
+}
+main #m_a2>div.new p:nth-of-type(1) span{
+    color:#666;
+}
+main #m_a2>div.new p:nth-of-type(2){
+   font-size:40px;
+}
+main #m_a2>div.left{
+    position: absolute;
+    top:47%;
+    left:0;
+    cursor:pointer;
+}
+main #m_a2>div.right{
+    position: absolute;
+    top:47%;
+    right:0;
+    cursor:pointer;
+}
+main #m_a2 section{
+    width: 90%;
+    margin:0 auto;
+    overflow: hidden;
+    display:none;
+}
+main #m_a2 .m2{
+    display:block;
+}
+main #m_a2 section>div{
+    width: 50%;
+    float:left;
+    height: 600px;
+    position: relative;
+}
+main #m_a2 section>div>div{
+width: 68%;
+background: #F5F5F6;
+box-shadow: 8px 7px 10px #C4C4C4;
+position: relative;
+}
+main #m_a2 section>div:nth-child(1)>div{
+    height: 510px;
+}
+main #m_a2 section>div:nth-child(2)>div{
+    height:250px;
+margin-top:140px;
+float:left;
+}
+main #m_a2 section>div:nth-child(3)>div{
+    height: 230px;
+    margin-top:160px;
+   position: relative;
+   top:-70px;
+}
+main #m_a2 section>div:nth-child(4){
+    position: relative;
+    top:-160px;
+}
+main #m_a2 section>div>div.width100{
+    width: 100%;
+}
+main #m_a2 section>div:nth-child(1)>div div{
+    position: relative; 
+    height:410px;
+   }
+main #m_a2 section>div:nth-child(1)>div div img{
+ width: 60%;
+ position: absolute;
+ top:15px;
+ right:-10px;
+ animation:shop1 0.6s 1;
+}
+@keyframes shop1{  /*第一块图片的向左渐进*/
+    0%{ right:-35px;}
+    100%{ right:-10px;}
+}
+main #m_a2 section>div:nth-of-type(1):hover>div div img{
+    width:63%;
+    animation:shop1_2 0.6s 1
+}
+@keyframes shop1_2{/*第一块悬停放大*/
+    0%{ width:60%;}
+    100%{  width:63%;}
+}
+main #m_a2 section>div:nth-child(2)>div div img{
+    width:80%;
+   position: absolute;
+  top:-15%;
+  left:30px;
+  animation:shop2_2 0.6s 1;
+  }
+  @keyframes shop2_2{/*第二块图片的向右渐进*/
+      0%{left:0px;}
+      100%{left:30px;}
+  }
+  main #m_a2 section>div:nth-child(2):hover>div div img{
+    transform:scale(1.05);
+    animation:shop2 0.6s 1;
+  }
+  @keyframes shop2{/*第二块图片悬停放大*/
+      0%{    transform:scale(1);}
+      100%{    transform:scale(1.05);}
+  }
+
+main #m_a2 section>div p{
+font-family: '宋体';
+}
+main #m_a2 section>div:hover p{/*悬停div p变色*/
+    color:#A5912E;
+    animation:shopP 0.5s 1;
+}
+@keyframes shopP{/*悬停div p变色*/
+    0%{ color:#000;}
+    100%{ color:#A5912E;}
+}
+main #m_a2 .msgleft1{/*左侧第一个p样式*/
+    padding-left:30px;
+    animation:shopP2 0.5s 1;
+}
+@keyframes shopP2{/*p向右渐进*/
+    0%{ padding-left:0;}
+    100%{padding-left:30px;}
+}
+main #m_a2 .msgleft2{/*左侧第二个p样式*/
+    padding-left:30px;
+    animation:shopP2 0.5s 1;
+    font-size:38px;
+
+}
+main #m_a2 section>div:nth-of-type(1) p:nth-of-type(2){
+    position: absolute;
+bottom:20px;
+}
+main #m_a2 p span{
+    font-size:18px;
+}
+
+main #m_a2 section>div:nth-of-type(2) aside{
+    width: 30%;
+    margin-top:140px;
+    padding-top:15%;
+    height:250px;
+float:right;
+}
+main #m_a2 section aside .msgright2{
+    font-size:38px;
+}
+main #m_a2 section>div aside p{
+padding-left:20px;
+animation:shopAside 0.6s 1;
+}
+@keyframes shopAside{
+    0%{padding-left:50px;}
+    100%{padding-left:20px;}
+}
+main #m_a2 section>div:nth-of-type(3) .left{
+    width: 40%;
+position: relative;
+top:70px;
+}
+main #m_a2 section>div:nth-of-type(3) .left p:nth-of-type(2){
+    margin-top:15px;
+}
+main #m_a2 section>div:nth-of-type(3) .right{
+    width: 60%;
+height:250px;
+position: relative;
+}
+main #m_a2 section>div:nth-of-type(3) .right img{
+    width: 70%;
+    margin-left:15%;
+animation:shopthree 0.6s 1;
+
+}
+@keyframes shopthree{
+    0%{
+        margin-left:20%;
+    }
+    100%{
+        margin-left:15%;
+    }
+}
+main #m_a2 section>div:nth-of-type(3):hover img{
+    width: 73%;
+    animation:shopthreeimg 0.7s 1;
+}
+@keyframes shopthreeimg{
+    0%{ width: 70%;}
+    100%{ width: 73%;}
+}
+main #m_a2 section>div:nth-child(4)>div.right{
+    height:540px;
+    width: 60%;
+    margin:30px 10px 0 0;
+    position: relative;
+
+}
+main #m_a2 section>div:nth-child(4)>div.right img{
+    height: 105%;
+    position: absolute;
+    top:-15px; 
+      margin-left:20%;
+      animation:shopFore 0.6s 1;
+}
+main #m_a2 section>div:nth-child(4)>div.left{
+    height:540px;
+    width: 35%;
+    background: none;
+ box-shadow: none;
+padding-top:60%;
+}
+main #m_a2 section>div:nth-child(4)>div.left p{
+    margin-bottom:15px;
+}
+main #m_a2 section>div:nth-child(4):hover .right img{
+    height:108%;
+    top:-20px;
+    margin-left:20%;
+   animation:shopFore2 0.6s 1;
+}
+main #m_a3{
+    width: 90%;
+   overflow: hidden;
+   margin:0 5%;
+}
+main #m_a3>div.new{
+    margin:50px 0 40px 0;
+}
+main #m_a3>div.new p:nth-of-type(1){
+    font-size:38px;
+    color:#BFA369;
+    font-family: '宋体';
+    text-align: center;
+}
+main #m_a3>div.new p:nth-of-type(1) span{
+    color:#666;
+    font-size:18px;
+}
+main #m_a3>div.new p:nth-of-type(2){
+   font-size:30px;
+   text-align: center;
+}
+main #m_a3 dl{
+  width:50%;
+  float:left;
+  margin-bottom:20px;
+}
+main #m_a3 dl:hover dd a{
+text-decoration:underline;
+}
+main #m_a3 dl>*{
+width: 100%;
+}
+main #m_a3 dl dt{
+    position: relative;
+    height:430px;
+    margin-bottom:10px;
+}
+
+
+main #m_a3 dl dt .up{
+    position: absolute;
+    left:0;
+    top:0;
+    z-index:6666;
+    animation:m3down 0.5s 1;
+}
+main #m_a3 dl dt .down{
+    z-index:1;
+}
+main #m_a3 dl dt:hover .up{
+    animation:m3up 0.5s 1; 
+    opacity:0;
+}
+@keyframes m3up{
+    0%{opacity:1;}
+    100%{opacity:0;}
+}
+@keyframes m3down{
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+main #m_a3 dl dt img{
+    width: 90%;
+    margin:0 5%;
+    height:100%;
+}
+main #m_a3 dl dd{
+    text-align: center;
+    font-size:14px;
+}
+main #m_a3 dl dd:nth-of-type(1) a{
+    font-weight: bold;
+}
+main #m_a3 dl dd a{
+    color:#000;
+}
+main #nv,main #nan{
+    width: 90%;
+    margin:0 5%;
+    overflow: hidden;
+}
+main #nv .nz,main #nan .nan{
+    font-size:42px;
+    font-family: '宋体';
+    color:#A5912E;
+    margin-bottom:30px;
+    text-align: center;
+}
+main #nv .nz p,main #nan .nan p{
+    display:inline-block;
+    border-bottom:1px solid;
+    padding-bottom:10px;
+}
+main #nv .nz span,main #nan .nan span{
+    color:#666;
+    font-size:18px;
+}
+main #nv>div.msgbrk1,main #nan>div.msgbrk1{
+    overflow: hidden; 
+    margin-bottom:20px;
+    width: 100%;
+}
+main #nv>div.msgbrk1 .left,main #nan>div.msgbrk1 .left{
+    width:50%;
+}
+main #nv>div.msgbrk1 .right,main #nan>div.msgbrk1 .right{
+    width:50%;
+}
+main #nv>div.msgbrk1 .left dl,main #nv>div.msgbrk1 .right dl{
+    width: 50%;
+    float:left;
+    position: relative;
+}
+main #nan>div.msgbrk1 .left dl,main #nan>div.msgbrk1 .right dl{
+    width: 50%;
+    float:left;
+    position: relative;
+}
+main #nv>div.msgbrk1 .left dl dd,
+main #nv>div.msgbrk1 .right dl dd
+{
+    opacity:0;
+}
+main #nan>div.msgbrk1 .left dl dd,
+main #nan>div.msgbrk1 .right dl dd
+{
+    opacity:0;
+}
+main #nv>div.msgbrk1 .left dl:hover dd,
+main #nv>div.msgbrk1 .right dl:hover dd
+{
+    animation:m3down 0.5s 1;
+    opacity:1; 
+}
+main #nan>div.msgbrk1 .left dl:hover dd,
+main #nan>div.msgbrk1 .right dl:hover dd
+{
+    animation:m3down 0.5s 1;
+    opacity:1; 
+}
+main #nv>div.msgbrk1 .left dl dd:nth-of-type(1),
+main #nv>div.msgbrk1 .right dl dd:nth-of-type(1)
+{
+    position: absolute;
+    bottom:11%;
+    width: 100%;
+}
+main #nan>div.msgbrk1 .left dl dd:nth-of-type(1),
+main #nan>div.msgbrk1 .right dl dd:nth-of-type(1)
+{
+    position: absolute;
+    bottom:11%;
+    width: 100%;
+}
+main #nv>div.msgbrk1 .left dl dd:nth-of-type(2),
+main #nv>div.msgbrk1 .right dl dd:nth-of-type(2)
+{
+    position: absolute;
+    bottom:5%;
+    width: 100%;
+}
+main #nan>div.msgbrk1 .left dl dd:nth-of-type(2),
+main #nan>div.msgbrk1 .right dl dd:nth-of-type(2)
+{
+    position: absolute;
+    bottom:5%;
+    width: 100%;
+}
+
+main #nv>div.msgbrk1 .right dl{
+    width:100%;
+}
+main #nan>div.msgbrk1 .right dl{
+    width:100%;
+}
+main #nv>div.msgbrk1 .right dl img{
+    width:92%;
+    margin:0 4%;
+}
+main #nan>div.msgbrk1 .right dl img{
+    width:92%;
+    margin:0 4%;
+}
+
+main #nv dl:hover dd a,main #nan dl:hover dd a{
+    text-decoration:underline;
+}
+main #nv dl dt,main #nan dl dt{
+    position: relative;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+main #nv>div.msgbrk2,main #nan>div.msgbrk2{
+    overflow: hidden;
+}
+main #nv>div.msgbrk2 dl,main #nan>div.msgbrk2 dl{
+    width:25%;
+  float:left;
+  margin-bottom:20px;
+}
+main #nv dl dt a img,main #nan dl dt a img{
+ width: 90%;
+ margin:0 5%;
+}
+main #nv dl dt .up,main #nan dl dt .up{
+    position: absolute;
+    left:0;
+    top:0;
+    z-index:6666;
+    animation:m3down 0.5s 1;
+}
+main #nv dl dt .down,main #nan dl dt .down{
+    z-index:1;
+}
+main #nv dl dt:hover .up{
+    animation:m3up 0.5s 1; 
+    opacity:0;
+}
+main #nan dl dt:hover .up{
+    animation:m3up 0.5s 1; 
+    opacity:0;
+}
+main #nv dl dd,main #nan dl dd{
+    text-align: center;
+    font-size:16px;
+}
+main #nv dl dd:nth-of-type(1) a,main #nan dl dd:nth-of-type(1) a{
+    font-weight: bold;
+}
+main #nv dl dd a,main #nan dl dd a{
+    color:#000;
+}
+main #nv>div.more,main #nan>div.more{
+    text-align: right;
+    width: 100%;
+    height:50px;
+}
+main #nv>div.more a,main #nan>div.more a{
+    color:#000;
+    font-size:14px;
+    font-weight:bold;
+    padding-bottom:10px;
+    margin-right:2%;
+    border-bottom:1px solid;
+    display:inline-block; 
+}
+@keyframes shopFore{
+    0%{margin-left:30%;}
+    100%{margin-left:20%;}
+}
+@keyframes shopFore2{
+    0%{ height:105%;}
+    100%{ height:108%;}
+}
+footer{
+    margin-top:100px;
+    width: 100%;
+    background: #F6F6F6;
+}
+footer>article{
+    width: 100%;
+}
+footer #f_a1{
+    overflow: hidden;
+    height: 272px;
+    background:url('../img/footerbg.jpg') center center;
+}
+footer #f_a1 a{
+display:block;
+width: 30%;
+margin:0 auto;
+height: 50px;
+text-align: center;
+line-height: 50px;
+margin-top:100px;
+background: #000;
+color:#fff;
+}
+footer #f_a1 img{
+    position: relative;
+    top:3px;
+}
+footer #f_a2{
+    border-top:1px solid #767676;
+    border-bottom:1px solid #767676;
+  margin-top:10px;
+  padding:55px 0;
+}
+footer #f_a2 section{
+width: 25%;
+float:left;
+}
+footer #f_a2 section:nth-child(1) dt{
+    margin-top:20px;
+    font-weight:bold;
+    font-size:14px;
+    text-align: center;
+}
+footer #f_a2 section:nth-child(1) dd{
+    font-size:12px;
+    margin-top:15px;
+    text-align: center;
+}
+footer #f_a2 section:nth-child(2){
+    position: relative;
+    padding-top:10px;
+}
+footer #f_a2 section:nth-child(2) span{
+    margin-top:20px;
+  position: absolute;
+  bottom:50px;
+  display:none;
+  font-size:12px;
+}
+
+footer #f_a3{
+    
+    padding:60px 10%;
+    border-bottom:1px solid #767676;
+}
+footer #f_a3 dl{
+    float:left;
+    width: 20%;
+}
+footer #f_a3 div{
+    float:right;
+}
+footer #f_a3 dt{
+    font-size:12px;
+    font-weight:bold;
+}
+footer #f_a3 dd{
+    margin:8px 0;
+}
+footer #f_a3 dd a{
+color:#666;
+font-size:12px;
+}
+footer #f_a3 dd a:hover{
+    text-decoration: underline;
+}
+footer #f_a4{
+    margin:25px 0;
+      text-align: right;
+      padding:0 10%;
+}
+
+footer #f_a4 a{
+    display:inline-block;
+    width: 25px;
+    height: 25px;
+    margin-left:40px;
+}
+footer #f_a4 a:nth-child(1){
+    margin:0;
+    background: url('../img/footerbottom.jpg') 1px 1px;
+}
+footer #f_a4 a:nth-child(2){
+    background: url('../img/footerbottom.jpg') -70px 0px;
+}
+footer #f_a4 a:nth-child(3){
+    background: url('../img/footerbottom.jpg') -140px 0;
+}
+footer #f_a4 a:nth-child(4){
+    background: url('../img/footerbottom.jpg') -211px 0px;
+}
+@keyframes footeremail{
+    0%{  bottom:12px;font-size:16px;}
+    100%{bottom:50px;font-size:12px;}
+}
+@keyframes footeremail2{
+    0%{  bottom:50px;font-size:12px;}
+    100%{bottom:12px;font-size:16px;}
+}
+footer #f_a2 section:nth-child(2) input{
+    width: 80%;
+    border:0;
+  border-bottom:1px solid #767676;
+  background:rgba(0,0,0,0);
+  height: 40px;
+  font-size:16px;
+background: #F6F6F6;
+outline:none;
+margin-top:20px;
+} 
+footer #f_a2 section:nth-child(3) p{
+    font-size:12px;
+    width: 80%;
+    margin:0 10%;
+}
+footer #f_a2 section:nth-child(3) p a{
+    color:#000;
+}
+footer #f_a2 section:nth-child(4) button{
+    border:0;
+    border:none;
+    color:#fff;
+    background: #767676;
+    width: 84%;
+    height:60px;
+    line-height: 60px;
+    font-weight:bold;
+    outline:none;
+    cursor: pointer;
+    position: relative;
+}
+@keyframes fbuttonup{
+    0%{top:0;}
+    100%{top:-5px;}
+}
+@keyframes fbuttondown{
+    0%{top:-5px;}
+    100%{top:0;}
+}
+
+@keyframes dh1{
+    0%{ border-bottom:3px solid rgba(0,0,0,0);}
+    100%{
+        border-bottom:3px solid rgba(0,0,0,1);
+    }
+}
+@keyframes dh2{
+    0%{
+        border-bottom:3px solid rgba(0,0,0,1);
+    }
+    100%{ border-bottom:3px solid rgba(0,0,0,0);}
+  
+}
+@keyframes m_dh1{
+    0%{
+opacity:0;
+    }
+    100%{
+opacity:1;
+    }
+}
+@keyframes scroll{
+    0%{ top:0;}
+    100%{top:-137px;}
+}
+@keyframes scroll2{
+    0%{top:-137px;}
+    100%{top:0;}
+}
+
+@keyframes twoOver{
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+@media (max-width:1290px){
+    main #m_a2 section{
+        height: 1100px;
+        overflow: hidden;
+    }
+    main #m_a2 section>div:nth-child(1)>div{
+        height:470px;
+       }
+    main #m_a2 section>div:nth-child(1)>div div{
+        height:370px;
+       }
+       main #m_a2 section>div:nth-child(3)>div{
+        margin-top:120px;
+    }
+    main #m_a2 section>div:nth-child(3){
+        height: 500px;
+   
+    }
+}
+@media (max-width:1106px){
+    main #m_a2 section{
+        height: 950px;
+        overflow: hidden;
+    }
+    main #m_a2 section>div:nth-child(1)>div{
+        height:430px;
+       }
+    main #m_a2 section>div:nth-child(1)>div div{
+        height:330px;
+       }
+       main #m_a2 section>div:nth-child(2)>div{
+        height:210px;
+    margin-top:150px;
+    }
+    main #m_a2 section>div:nth-of-type(2) aside{
+        margin-top:150px;
+        height:210px;
+    }
+    main #m_a2 section>div:nth-child(3){
+        position: relative;
+        top:-100px;
+    }
+    main #m_a2 section>div:nth-child(3) div{
+        height:210px;
+    }
+    main #m_a2 section>div:nth-child(4){
+        top:-190px;
+    }
+    main #m_a2 section>div:nth-child(4)>div.right{
+        height:450px;   
+    }
+    main #m_a2 section>div:nth-child(4)>div.left{
+        height:450px;
+        width: 35%;
+        background: none;
+     box-shadow: none;
+    padding-top:60%;
+    }
+    main #m_a2 section>div:nth-child(4)>div.left p{
+        margin-bottom:15px;
+    }
+    main #m_a2 section>div:nth-child(4):hover .right img{
+        height:108%;
+        top:-20px;
+        margin-left:20%;
+       animation:shopFore2 0.6s 1;
+    }
+    main #nv>div .left dl dd:nth-of-type(1) a{
+        font-size:14px;
+    }
+    main #nv>div .left dl dd:nth-of-type(2) a{
+        font-size:12px;
+    }
+}
+@media (max-width:1024px){
+    main #m_a2 section{
+        height: 860px;
+        overflow: hidden;
+    }
+    header{
+        padding:20px 0 0 0;
+     height: 122px;
+    }
+    header article{
+        margin:0 2%;
+        width: 96%;
+  
+    }
+    .Hmargin{
+        padding:30px 2%;
+    }
+    header #zindex .Hmargin div.left{
+width: 100%;
+border-bottom:1px solid #999;
+    }
+    header #zindex .Hmargin .right{
+        width: 100%;
+   
+            }
+    header #zindex .Hmargin:nth-of-type(1) .left div{
+        text-align: right;
+        padding-right:10%;
+        margin-bottom:10px;
+    }
+    header #zindex .Hmargin dl.left{
+        margin-top:20px;
+    }
+    main #m_a1>section ul{
+        width: 85px;
+        height: 85px;
+    }
+    main #m_a1>section ul li a{
+        width: 35px;
+        height: 35px;
+    }
+    main #m_a1>section{
+        bottom:12%;
+    }
+
+
+
+
+    footer #f_a2 section{
+    width: 50%;
+    padding:0 5%;
+    }
+    footer #f_a2{
+      margin-top:10px;
+      padding:30px 0;
+
+    }
+    footer #f_a2 section:nth-child(1),footer #f_a2 section:nth-child(2){
+        margin-bottom:25px;
+    }
+    footer #f_a3{
+        padding:60px 5%;
+    }
+    footer #f_a3 dl{
+        float:left;
+        width: 33.3%;
+
+    }
+    footer #f_a3 div{
+     display:none;
+    }
+  
+   
+   
+}
+@media (max-width:964px){
+      main #m_a2 section>div:nth-child(1)>div{
+        height:380px;
+       }
+    main #m_a2 section>div:nth-child(1)>div div{
+        height:280px;
+       }
+       main #m_a2 section>div:nth-child(2)>div{
+        height:190px;
+    margin-top:150px;
+    }
+    main #m_a2 section>div:nth-of-type(2) aside{
+        margin-top:150px;
+        height:190px;
+    }
+    main #m_a2 section>div:nth-child(3){
+        position: relative;
+        top:-170px;
+    }
+    main #m_a2 section>div:nth-child(3) div{
+        height:190px;
+    }
+    main #m_a2 section>div:nth-of-type(3) .left{
+  
+    top:50px;
+    }
+    main #m_a2 section>div:nth-child(4){
+        top:-210px;
+    }
+    main #m_a2 section>div:nth-child(4)>div.right{
+        height:410px;   
+    }
+    main #m_a2 section>div:nth-child(4)>div.left{
+        height:410px;
+        width: 35%;
+     
+    }
+   main #nv>div.msgbrk1 .left dl dd:nth-of-type(1){
+       bottom:13%;
+   }
+   main #nan>div.msgbrk1 .left dl dd:nth-of-type(1){
+    bottom:13%;
+}
+   main #nv>div.msgbrk1 .left dl dd:nth-of-type(2){
+    bottom:7%;
+}
+main #nan>div.msgbrk1 .left dl dd:nth-of-type(2){
+    bottom:7%;
+}
+}
+@media (max-width:768px){
+    header{
+        padding:20px 0;
+        height: 63px;
+    }
+    header #h_s2{
+        width: 68%;
+    }
+    header #h_s2 img{
+        height: 25px;
+    }
+    header #h_d1,header #h_d2{
+        width: 150px;  
+    }
+    header #h_d1 ul li,header #h_d2 ul li{
+        margin:0 10px;
+        float:left;
+        height: 34px;
+        line-height: 34px;
+    }
+   
+    header #h_brk #h_s2{
+        width: 100%;
+    }
+    header #h_d1{
+        float:left;
+        margin-left:-100%;
+        padding-left:70px;
+    }
+    header #h_d2{
+        float:left;
+        margin-left:-150px;
+    }
+    header #h_s3,header #h_s1{
+        display:none;
+    }
+    header #h_d1, header #h_d2{
+        display:block;
+    }  
+    header article:last-child nav{
+        display:none;
+    }
+    main #m_a1>section ul{
+        width: 70px;
+        height: 70px;
+    }
+    main #m_a1>section ul li a{
+        width: 28px;
+        height: 28px;
+    }
+    main #m_a1>#shopmsg li a{
+        color:#fff;
+        font-size:24px;
+        font-weight:bold;
+    }
+    main #m_a3 dl dt{
+        height:320px;
+    }
+    footer #f_a2{
+        width: 100%;
+    }
+    footer #f_a2 section{
+        width: 70%;
+        margin:0 15%;
+        padding:0;
+    }
+    footer #f_a2 section *{
+        text-align: left;
+    }
+    footer #f_a2 section:nth-child(1) dt,footer #f_a2 section:nth-child(1) dd{
+        text-align: left;
+    }
+    footer #f_a2 section:nth-child(2) input{
+        width: 100%;
+    }
+    footer #f_a2 section:nth-child(3) p{
+        margin:0;
+        width: 100%;
+       
+    }
+    footer #f_a2 section:nth-child(4) button{
+        width: 100%;
+        text-align: center;
+        margin-top:20px;
+    }
+    footer #f_a3{
+        padding:0;
+        border:0;
+    }
+    footer #f_a3 dl{
+       width: 100%;
+       padding-left:3%;
+       margin:10px 0;
+     border-bottom:1px solid #767676;
+   }
+   footer #f_a4{
+      text-align:center;
+}
+footer #f_a4{
+      padding:0 ;
+}
+footer #f_a1 a{
+    width: 70%;
+      height: 60px;
+      line-height: 60px;
+}
+main #nv>div.msgbrk1 .left dl dd:nth-of-type(1){
+    bottom:15%;
+}
+main #nan>div.msgbrk1 .left dl dd:nth-of-type(1){
+    bottom:15%;
+}
+main #nv>div.msgbrk1 .left dl dd:nth-of-type(2){
+ bottom:8%;
+}
+main #nan>div.msgbrk1 .left dl dd:nth-of-type(2){
+    bottom:8%;
+   }
+main #nv>div.msgbrk2 dl dd:nth-of-type(1){
+    font-size:14px;
+}
+main #nan>div.msgbrk2 dl dd:nth-of-type(1){
+    font-size:14px;
+}
+main #nv>div.msgbrk2 dl{
+    width:33.33%;
+}
+main #nan>div.msgbrk2 dl{
+    width:33.33%;
+}
+main #nv .nz,main #nan .nan{
+    font-size:32px;
+}
+}
+@media (max-width:618px){
+    header article{
+        margin:0;
+        width: 100%;
+    }  
+    header #h_d1,header #h_d2{
+        width: 100px;
+    }
+    header #h_d1{
+        margin-left:-100%;
+    }
+    header #h_d2{
+        margin-left:-100px;
+    }
+    header #h_d1{
+        padding-left:20px;
+    }
+    main #m_a1>section ul{
+        width: 100px;
+        height: 100px;
+    }
+    main #m_a1>section ul li a{
+        width: 42px;
+        height: 42px;
+    }
+ 
+    footer #f_a2 section{
+        width: 80%;
+        margin:0 10%;
+    }
+    footer #f_a1 a{
+        width: 80%;
+        
+    }
+    main #nv>div.msgbrk1 .right,main #nan>div.msgbrk1 .right{
+        display:none;
+    }
+    main #nv>div.msgbrk1 .left,main #nv>div.msgbrk2{
+        width: 100%;
+        margin:0;
+    }
+    main #nan>div.msgbrk1 .left,main #nan>div.msgbrk2{
+        width: 100%;
+        margin:0;
+    }
+       main #nv>div.msgbrk2 dl,main #nan>div.msgbrk2 dl{
+           width:50%;
+       }
+}
+@media (max-width:597px){
+    main #m_a3 dl{
+      width:80%; margin:10px 10%;
+    }
+    main #m_a3 dl dt{
+        height:400px;
+    }
+    main #nv>div.msgbrk1 .left, main #nv>div.msgbrk2{
+        width: 80%;
+        margin:0 10%;
+    }
+    main #nan>div.msgbrk1 .left, main #nan>div.msgbrk2{
+        width: 80%;
+        margin:0 10%;
+    }
+    main #nv>div.msgbrk1 .left dl, main #nv>div.msgbrk2 dl{
+        width: 100%;
+    }
+    main #nan>div.msgbrk1 .left dl, main #nan>div.msgbrk2 dl{
+        width: 100%;
+    }
+    main #nv>div.msgbrk1 .left dl dd:nth-of-type(1){
+       bottom:10%;
+    }
+    main #nan>div.msgbrk1 .left dl dd:nth-of-type(1){
+        bottom:10%;
+     }
+    main #nv>div.msgbrk1 .left dl dd:nth-of-type(2){
+        bottom:5%;
+     }
+     main #nan>div.msgbrk1 .left dl dd:nth-of-type(2){
+        bottom:5%;
+     }
+     main #nv .nz,main #nan .nan{
+        font-size:28px;
+   
+    }
+    main #nv>div.more a,main #nan>div.more a{
+        font-size:12px;
+    }
+   
+}
+@media (max-width:493px){
+ 
+    header article:first-child{
+        position: relative;
+    }
+    header #twoul{
+        width: 50%;
+    }
+    footer #f_a2 section{
+        width: 90%;
+        margin:0 5%;
+    }
+    footer #f_a1 a{
+        width: 90%;
+        
+    }
+   
+}
+@media (max-width:414px){
+    main #m_a3 dl{
+       width:100%;
+       margin:10px 0;
+    }
+    main #m_a1>section ul{
+        width: 80px;
+        height: 80px;
+    }
+    main #m_a1>section ul li a{
+        width: 33px;
+        height: 33px;
+    }
+    main #m_a1>section{
+        bottom:8%;
+    }
+    footer #f_a1{
+        height: 192px;
+        background:url('../img/footerbg2.jpg') center center;
+    }
+    footer #f_a2 section{
+        width: 94%;
+        margin:0 3%;
+    }
+    footer #f_a1 a{
+        width: 100%;
+        margin-top:70px;
+    }
+    main #nv>div.msgbrk1 .left,main #nv>div.msgbrk2{
+        width: 100%;
+        margin:0;
+    }
+    main #nan>div.msgbrk1 .left,main #nan>div.msgbrk2{
+        width: 100%;
+        margin:0;
+    }
+}
+@media (max-width:343px){
+    main #m_a3 dl dt{
+        height:280px;
+    }
+}
+
+
+
+
+
